@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Session - Mosaic Community Network</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mosaic Community Network</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="courses.html">Courses</a> |
+            <a href="book.html">Book Session</a> |
+            <a href="admin.html">Admin Panel</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Book a Session</h2>
+            <form>
+                <div>
+                    <label for="volunteer">Select Volunteer Lead:</label>
+                    <select id="volunteer" name="volunteer">
+                        <option value="7">Dr. Sarah Gill (Health and Wellness Guidance)</option>
+                        <option value="8">Aisha Mughal (Policy and Rights Consultation)</option>
+                        <option value="9">Nisha Rao (Legal Assistance and Support)</option>
+                        <option value="10">Jannat Ali (Educational Tutoring)</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="topic">Session Topic:</label>
+                    <input type="text" id="topic" name="topic" placeholder="e.g. Legal guidance request">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="slot_time">Preferred Date and Time:</label>
+                    <input type="datetime-local" id="slot_time" name="slot_time">
+                </div>
+
+                <br>
+
+                <button type="submit">Confirm Appointment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mosaic Community Network</p>
+    </footer>
+
+</body>
+</html>

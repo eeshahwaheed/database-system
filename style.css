@@ -1,0 +1,71 @@
+/* 1. Reset default browser spacing & set clean typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* 2. Header & Navigation Bar */
+header {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 1.2rem;
+    font-weight: 500;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background-color: #1e293b;
+    color: #38bdf8;
+}
+
+/* 3. Main Content Container & Sections */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+section h2 {
+    margin-bottom: 0.8rem;
+    color: #0f172a;
+}
+
+/* 4. Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #64748b;
+    font-size: 0.9rem;
+}
